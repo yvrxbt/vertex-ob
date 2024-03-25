@@ -31,7 +31,6 @@ This project aims to develop a web-based REST API application in Python that ser
 - Error handling: Implement robust error handling mechanisms to handle various scenarios, such as invalid requests or failed executions.
 - Authentication and authorization: Integrate authentication and authorization mechanisms to ensure secure access to the API endpoints.
 - Logging: Implement logging to capture relevant events and debug information for monitoring and troubleshooting purposes.
-- Unit tests: Develop comprehensive unit tests to validate the functionality of different components of the application.
 - Assumptions: Feel free to make assumptions on the unclear parts of the case study, one of our job is making assumptions with limited knowledge we get from exchanges.
 
 ### Documentation for Vertex
