@@ -16,7 +16,7 @@ This project aims to develop a web-based REST API application in Python that ser
 
 ### REST API
 
-- The REST API is developed using Python's Flask framework, providing a lightweight and efficient web server.
+- The REST API is developed using Python, providing a lightweight and efficient web server.
 - Two endpoints are exposed:
   - `/quote`: Accepts GET requests with parameters for ticker symbol and quantity, returning a quote with comprehensive information.
   - `/execute`: Accepts POST requests with order details, simulating immediate fill execution against the internal orderbook and responding with a JSON of pertinent details of the executed order for the client.
