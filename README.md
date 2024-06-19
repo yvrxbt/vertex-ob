@@ -1,55 +1,56 @@
-# Project Name: RESTful API with Internal Orderbook
+Here's the updated and improved version of your README.md file:
+
+# Project Name: Websocket with Internal Orderbook
 
 ## Introduction
 
-This project aims to develop a simple application in Python that serves a single function: stream a single live orderbook for BTC (Bitcoin) from the onchain perp exchange Vertex. You will need to recreate the orderbook given a stream of updates received from the exchange's public websocket. No API keys are required, but you will need a VPN to connect to the websocket if subscribing inside the United States. Any resource available to you is allowed (including AI tools like Chat-GPT).
+This project aims to develop a simple Python application that streams a live orderbook for BTC (Bitcoin) from the on-chain perpetual exchange, Vertex. You'll need to recreate the orderbook using a stream of updates received from the exchange's public WebSocket. No API keys are required, but you will need a VPN to connect to the WebSocket if subscribing inside the United States. You may use any resources available, including AI tools like ChatGPT.
 
-To pass this case study, you need to demonstrate the following...
+To pass this case study, you need to demonstrate the following:
 
 ## Must Complete
 
-1. **Websocket Client:** A websocket client to specifically communicate with Vertex to stream order book updates via the Book Depth stream. 
+1. **WebSocket Client:** Implement a WebSocket client to communicate with Vertex and stream orderbook updates via the Book Depth stream.
 
-2. **Orderbook Builder:** The websocket will stream orderbook updates from different depths in the book into an object to process the streamed events. 
+2. **Orderbook Builder:** Develop a class to process and build the orderbook from the streamed updates.
 
-3. **Entrypoint / Orderbook Display:** Provide us with an entrypoint to the application which will display the assembled orderbooks *live* from the orderbook builder class to the user. We will run your code from this entrypoint and compare the output to a live vertex orderbook to judge the accuracy of the case study.
+3. **Entrypoint / Orderbook Display:** Provide an entry point to the application that displays the assembled orderbook *live* to the user. We will run your code from this entry point and compare the output to a live Vertex orderbook to judge accuracy.
 
 ## Implementation Details
 
-### Websocket Client
+### WebSocket Client
 
-- You can find documentation on the book depth stream necessary to obtain orderbook updates from Vertex [here](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/events#book-depth). You cannot use the Python SDK for this project, implement everything yourself!
-- You have the option of building a sync or async websocket client to stream data. If you choose a synchronous design, use threading and locks to handle race conditions where appropriate. If you use async websockets, ensure that your entire app is async in nature. It is important to remain consistent in how you build!
-- Focus on the orderbook for BTC on the Aribtrum One blockchain. There are many tickers and chains you can choose from, but keep it simple for this case study:
-  - `product_id: 2` (vertex uses product_id instead of ticker; BTC has product-id of 2)
-  - `wss: wss://gateway.prod.vertexprotocol.com/v1/ws`
-- Proper error handling and reconnection handlers are important as a failure in the websocket to consistently stream will be seen as an incomplete case study.
+- Refer to the [Vertex documentation](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/events#book-depth) for details on obtaining orderbook updates. You cannot use the Python SDK; implement everything from scratch.
+- You can build a synchronous or asynchronous WebSocket client. If you choose synchronous, use threading and locks to handle race conditions. For asynchronous, ensure the entire app follows the async paradigm. Consistency is key.
+- Focus on the BTC orderbook on the Arbitrum One blockchain:
+  - `product_id: 2` (BTC has a `product_id` of 2)
+  - WebSocket URL: `wss://gateway.prod.vertexprotocol.com/v1/ws`
+- Implement proper error handling and reconnection mechanisms to ensure a reliable stream.
 
 ### Orderbook Builder
 
-- The internal orderbook should be populated with live data obtained from Vertex using the websocket client.
-- Remember that you will receive order book updates from the websocket, so do not assume that you will get the full orderbook on every message.
-- You will want to be able to display the final orderbook somehow when we run your code from the entry point, so keep this in mind when you are building.
-- At a minimum, you shoud ensure that orderbooks are valid
+- Populate the internal orderbook with live data from the WebSocket client.
+- Handle partial updates, as you won't receive the full orderbook on every message.
+- Ensure the orderbook is valid:
   - Bids < Asks
   - Quantities > 0
-  - Bids > 0 & Asks < inf
+  - Bids > 0 & Asks < ∞
 
 ### Entry Point
 
-- Provide us with the ability to start the websocket, use the Orderbook builder to assemble orderbooks, and display the live internal orderbook to the user.
-- Add instructions for the entry point in a README file.
-- Attempt to target ~1sec latency between the live Vertex orderbook and the internally assembled orderbook you display. No need to build a verification system, just eyeball that your internal orderbook feed is accurate.
+- Provide a way to start the WebSocket, use the Orderbook Builder to assemble orderbooks, and display the live orderbook to the user.
+- Add detailed instructions for the entry point in the README file.
+- Aim for ~1-second latency between the live Vertex orderbook and your internal orderbook. No need for a verification system; just ensure accuracy by inspection.
 
 ### Additional Considerations
 
-- Error handling: Implement robust error handling mechanisms to handle various scenarios, such as invalid requests or failed executions.
-- Logging: Implement logging to capture relevant events and debug information for monitoring and troubleshooting purposes.
-- Assumptions: Feel free to make assumptions on the unclear parts of the case study, one of our job is making assumptions with limited knowledge we get from exchanges.
+- **Error Handling:** Implement robust error handling for various scenarios, such as invalid requests or failed executions.
+- **Logging:** Include logging to capture relevant events and debug information.
+- **Assumptions:** Feel free to make reasonable assumptions where the case study details are unclear. Part of the task is to handle such ambiguities effectively.
 
 ### Documentation for Vertex
 
-You can find the full, extensive documentation of Vertex in [Vertex Documentation](https://docs.vertexprotocol.com/developer-resources/api):
+You can find the extensive documentation of Vertex [here](https://docs.vertexprotocol.com/developer-resources/api).
 
 ## Contributing
 
@@ -61,4 +62,4 @@ This project is licensed under the [MIT License](LICENSE), allowing for both per
 
 ## Contact
 
-For any inquiries or suggestions regarding the project, feel free to contact Lhava at sam@lhava.io or ata@lhava.io
+For any inquiries or suggestions regarding the project, feel free to contact Lhava at sam@lhava.io or ata@lhava.io.
