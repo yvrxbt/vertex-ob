@@ -2,52 +2,54 @@
 
 ## Introduction
 
-This project aims to develop a web-based REST API application in Python that serves two main functionalities: providing quotes based on live data from Vertex Protocol's orderbook and executing immediate fills for provided orders. The API will expose endpoints to interact with these functionalities, catering to users who require real-time market data and execution capabilities.
+This project aims to develop simple application in Python that serves a single function: stream a single live orderbook for BTC (Bitcoin) from the onchain perp exchange Vertex. You will need to recreate the orderbook given a stream of updates received from the exchange's public websocket. No API keys are required, but you will need a VPN to connect to the websocket if subscribing inside the United States. Any resource available to you is allowed (including AI tools like Chat-GPT).
 
-## Features
+To pass this case study, you need to demonstrate the following...
 
-1. **Quote Endpoint:** Allows clients to request quotes by providing a ticker symbol and quantity. The response will include relevant information beyond just the price, ensuring users have comprehensive data to make informed decisions.
+## Must Complete
 
-2. **Immediate Fill Endpoint:** Mocks the execution of an immediate fill, confirming or rejecting the order based on its validity upon arrival. This endpoint ensures that placed orders are validated before execution.
+1. **Websocket Client:** A websocket client to specifically communicate with Vertex to stream order book updates. 
 
-3. **Internal Orderbook:** Utilizes live data from Vertex Protocol's orderbook through a public and free API. The orderbook serves as the basis for generating quotes, and a background job is set up to regularly update this data.
+2. **Orderbook Builder:** The websocket will stream orderbook updates from different depths in the book, but you need an object to process the streamed events. 
+
+3. **Entrypoint / Orderbook Display:** Provide us with an entrypoint to the application which will display the orderbooks *live* from the orderbook builder class to the user. We will run your code from this entrypoint and compare the output to a live vertex orderbook to judge the accuracy of the case study. Attempt to target ~1sec latency (which is quite doable even with Python)
 
 ## Implementation Details
 
-### REST API
+### Websocket Client
 
-- The REST API is developed using Python, providing a lightweight and efficient web server.
-- Two endpoints are exposed:
-  - `/quote`: Accepts GET requests with parameters for ticker symbol and quantity, returning a quote with comprehensive information.
-  - `/execute`: Accepts POST requests with order details, simulating immediate fill execution against the internal orderbook and responding with a JSON of pertinent details of the executed order for the client.
+- You can find documentation from Vertex [here](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/events#book-depth). You cannot use the Python SDK for this project, implement everything yourself!
+- You have the option of building a sync or async client. If you choose a synchronous design, use threading and locks to handle race conditions. If you use async websockets, ensure that your entire app is async in nature. It is important to remain consistent in how you build!
+- Focus on the orderbook for BTC on the Aribtrum One blockchain. There are many tickers and chains you can choose from, but keep it simple for this case study:
+  - `ticker: BTC`
+  - `wss: wss://gateway.prod.vertexprotocol.com/v1/ws`
+- Proper error handling and reconnection handlers are important as a failure in the websocket to consistently stream will be seen as an incomplete case study.
 
-### Internal Orderbook
+### Orderbook Builder
 
-- The internal orderbook is populated with live data obtained from Vertex Protocol's using a public API.
-- A background job fetches and updates this data regularly to ensure real-time information availability for generating quotes.
+- The internal orderbook is populated with live data obtained from Vertex Protocol using the websocket client.
+- Remember that you will receive order book updates from the websocket, so do not assume that you will get the full orderbook on every message.
+- You will want to be able to display the final orderbook somehow when we run your code from the entry point, so keep this in mind when you are building.
+- At a minimum, you shoud ensure that orderbooks are valid
+  - Bids < Asks
+  - Quantities > 0
+  - Bids > 0 & Asks < inf
+
+### Entry Point
+
+- Provide us with the ability to start the websocket, use the Orderbook builder to assemble orderbooks, and display the live internal orderbook to the user.
+- Add instructions for the entry point in a README file.
+- Attempt to target ~1sec latency between the live Vertex orderbook and the internally assembled orderbook you display. No need to build a verification system, just eyeball that your internal orderbook feed is accurate.
 
 ### Additional Considerations
 
 - Error handling: Implement robust error handling mechanisms to handle various scenarios, such as invalid requests or failed executions.
-- Authentication and authorization: Integrate authentication and authorization mechanisms to ensure secure access to the API endpoints.
 - Logging: Implement logging to capture relevant events and debug information for monitoring and troubleshooting purposes.
 - Assumptions: Feel free to make assumptions on the unclear parts of the case study, one of our job is making assumptions with limited knowledge we get from exchanges.
 
 ### Documentation for Vertex
 
-You can find extensive documentation of Vertex in [Vertex Documentation](https://docs.vertexprotocol.com/developer-resources/api):
-
-## Usage
-
-To test the functionality of the application, follow these steps:
-
-1. Send a live request to the `/quote` endpoint to get a quote for buying a certain amount of BTC.
-2. Upon receiving the quote, attempt to mock-execute the order by sending a request to the `/execute` endpoint with the appropriate order details.
-
-Please note that the actual execution of orders should be performed with caution, especially in live trading environments.
-`/execute` endpoint should not interact with real exchange endpoints.
-
-You can build and deploy the application using any method of your choice, whether it's through Docker or manual installation.
+You can find the full, extensive documentation of Vertex in [Vertex Documentation](https://docs.vertexprotocol.com/developer-resources/api):
 
 ## Contributing
 
