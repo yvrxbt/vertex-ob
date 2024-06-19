@@ -1,5 +1,3 @@
-Here's the updated and improved version of your README.md file:
-
 # Project Name: Websocket with Internal Orderbook
 
 ## Introduction
