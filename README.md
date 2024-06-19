@@ -2,32 +2,32 @@
 
 ## Introduction
 
-This project aims to develop simple application in Python that serves a single function: stream a single live orderbook for BTC (Bitcoin) from the onchain perp exchange Vertex. You will need to recreate the orderbook given a stream of updates received from the exchange's public websocket. No API keys are required, but you will need a VPN to connect to the websocket if subscribing inside the United States. Any resource available to you is allowed (including AI tools like Chat-GPT).
+This project aims to develop a simple application in Python that serves a single function: stream a single live orderbook for BTC (Bitcoin) from the onchain perp exchange Vertex. You will need to recreate the orderbook given a stream of updates received from the exchange's public websocket. No API keys are required, but you will need a VPN to connect to the websocket if subscribing inside the United States. Any resource available to you is allowed (including AI tools like Chat-GPT).
 
 To pass this case study, you need to demonstrate the following...
 
 ## Must Complete
 
-1. **Websocket Client:** A websocket client to specifically communicate with Vertex to stream order book updates. 
+1. **Websocket Client:** A websocket client to specifically communicate with Vertex to stream order book updates via the Book Depth stream. 
 
-2. **Orderbook Builder:** The websocket will stream orderbook updates from different depths in the book, but you need an object to process the streamed events. 
+2. **Orderbook Builder:** The websocket will stream orderbook updates from different depths in the book into an object to process the streamed events. 
 
-3. **Entrypoint / Orderbook Display:** Provide us with an entrypoint to the application which will display the orderbooks *live* from the orderbook builder class to the user. We will run your code from this entrypoint and compare the output to a live vertex orderbook to judge the accuracy of the case study. Attempt to target ~1sec latency (which is quite doable even with Python)
+3. **Entrypoint / Orderbook Display:** Provide us with an entrypoint to the application which will display the assembled orderbooks *live* from the orderbook builder class to the user. We will run your code from this entrypoint and compare the output to a live vertex orderbook to judge the accuracy of the case study.
 
 ## Implementation Details
 
 ### Websocket Client
 
-- You can find documentation from Vertex [here](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/events#book-depth). You cannot use the Python SDK for this project, implement everything yourself!
-- You have the option of building a sync or async client. If you choose a synchronous design, use threading and locks to handle race conditions. If you use async websockets, ensure that your entire app is async in nature. It is important to remain consistent in how you build!
+- You can find documentation on the book depth stream necessary to obtain orderbook updates from Vertex [here](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/events#book-depth). You cannot use the Python SDK for this project, implement everything yourself!
+- You have the option of building a sync or async websocket client to stream data. If you choose a synchronous design, use threading and locks to handle race conditions where appropriate. If you use async websockets, ensure that your entire app is async in nature. It is important to remain consistent in how you build!
 - Focus on the orderbook for BTC on the Aribtrum One blockchain. There are many tickers and chains you can choose from, but keep it simple for this case study:
-  - `ticker: BTC`
+  - `product_id: 2` (vertex uses product_id instead of ticker; BTC has product-id of 2)
   - `wss: wss://gateway.prod.vertexprotocol.com/v1/ws`
 - Proper error handling and reconnection handlers are important as a failure in the websocket to consistently stream will be seen as an incomplete case study.
 
 ### Orderbook Builder
 
-- The internal orderbook is populated with live data obtained from Vertex Protocol using the websocket client.
+- The internal orderbook should be populated with live data obtained from Vertex using the websocket client.
 - Remember that you will receive order book updates from the websocket, so do not assume that you will get the full orderbook on every message.
 - You will want to be able to display the final orderbook somehow when we run your code from the entry point, so keep this in mind when you are building.
 - At a minimum, you shoud ensure that orderbooks are valid
