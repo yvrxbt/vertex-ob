@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to develop a simple Python application that streams a live orderbook for BTC (Bitcoin) from the on-chain perpetual exchange, Vertex. You'll need to recreate the orderbook using a stream of updates received from the exchange's public WebSocket. No API keys are required, but you will need a VPN to connect to the WebSocket if subscribing inside the United States. You may use any resources available, including AI tools like ChatGPT.
+This project aims to develop a simple application in the language of your choice that streams a live orderbook for BTC (Bitcoin) from the on-chain perpetual exchange, Vertex. You'll need to recreate the orderbook using a stream of updates received from the exchange's public WebSocket. No API keys are required, but you will need a VPN to connect to the WebSocket if subscribing inside the United States. You may use any resources available, including AI tools like ChatGPT.
 
 To pass this case study, you need to demonstrate the following:
 
