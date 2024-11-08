@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to develop a simple application in the language of your choice that streams a live orderbook for BTC (Bitcoin) from the on-chain perpetual exchange, Vertex. You'll need to recreate the orderbook using a stream of updates received from the exchange's public WebSocket. No API keys are required, but you will need a VPN to connect to the WebSocket if subscribing inside the United States. You may use any resources available, including AI tools like ChatGPT.
+This project aims to develop a simple application in the language of your choice that streams a live orderbook for BTC-USDC from the on-chain perpetual exchange, Vertex. You'll need to recreate the orderbook using a stream of updates received from the exchange's public WebSocket. No API keys are required, but you will need a VPN to connect to the WebSocket if subscribing inside the United States. You may use any resources available, including AI tools like ChatGPT.
 
 To pass this case study, you need to demonstrate the following:
 
@@ -12,7 +12,7 @@ To pass this case study, you need to demonstrate the following:
 
 2. **Orderbook Builder:** Develop a class to process and build the orderbook from the streamed updates.
 
-3. **Entrypoint / Orderbook Display:** Provide an entry point to the application that displays the assembled orderbook *live* to the user. We will run your code from this entry point and compare the output to a live Vertex orderbook to judge accuracy.
+3. **Entrypoint / Orderbook Display:** Provide an entry point to the application that displays the assembled orderbook *live* to the user. This can be printed to the terminal. The quality of the display is not the focus of the case study, however it will be used to verify correctness of your OB building approach.
 
 ## Implementation Details
 
@@ -38,10 +38,11 @@ To pass this case study, you need to demonstrate the following:
 
 - Provide a way to start the WebSocket, use the Orderbook Builder to assemble orderbooks, and display the live orderbook to the user.
 - Add detailed instructions for the entry point in the README file.
-- Aim for ~1-second latency between the live Vertex orderbook and your internal orderbook. No need for a verification system; just ensure accuracy by inspection.
+- Ensure accuracy of your bids & asks by inspection in the Vertex UI.
 
 ### Additional Considerations
 
+- **Performance:** We are a trading firm and focus on writing high performance code. Keep this in mind in your implementation.
 - **Error Handling:** Implement robust error handling for various scenarios, such as invalid requests or failed executions.
 - **Logging:** Include logging to capture relevant events and debug information.
 - **Assumptions:** Feel free to make reasonable assumptions where the case study details are unclear. Part of the task is to handle such ambiguities effectively.
