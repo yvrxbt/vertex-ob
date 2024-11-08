@@ -61,4 +61,4 @@ This project is licensed under the [MIT License](LICENSE), allowing for both per
 
 ## Contact
 
-For any inquiries or suggestions regarding the project, feel free to contact Lhava at sam@lhava.io or ata@lhava.io.
+For any inquiries regarding the project, feel free to send questions to tech@lhava.io.
