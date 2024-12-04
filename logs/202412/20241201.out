@@ -1,0 +1,11 @@
+2024-12-01 22:14:05.126|INFO|main|Starting Vertex OrderBook application
+2024-12-01 22:14:06.686|INFO|websocket|Connected to Vertex WebSocket
+2024-12-01 22:14:06.886|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-01 22:14:13.481|INFO|main|Shutting down application...
+2024-12-01 22:14:13.481|INFO|main|Application shutdown complete
+2024-12-01 22:15:13.435|INFO|main|Starting Vertex OrderBook application
+2024-12-01 22:15:14.814|INFO|websocket|Connected to Vertex WebSocket
+2024-12-01 22:15:15.005|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-01 22:17:06.015|INFO|main|Starting Vertex OrderBook application
+2024-12-01 22:17:07.419|INFO|websocket|Connected to Vertex WebSocket
+2024-12-01 22:17:07.618|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage

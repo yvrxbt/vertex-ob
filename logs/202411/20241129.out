@@ -1,0 +1,5 @@
+2024-11-29 11:06:03.017|INFO|main|Starting Vertex OrderBook application
+2024-11-29 11:06:03.853|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403
+2024-11-29 11:06:05.542|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403
+2024-11-29 11:06:07.246|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403
+2024-11-29 11:06:08.986|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403

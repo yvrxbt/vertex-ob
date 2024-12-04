@@ -1,0 +1,489 @@
+2024-12-02 19:59:47.651|INFO|main|Starting Vertex OrderBook application
+2024-12-02 19:59:49.252|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 19:59:49.592|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-02 19:59:51.006|INFO|main|Shutting down application...
+2024-12-02 19:59:51.006|INFO|main|Application shutdown complete
+2024-12-02 20:00:46.277|INFO|main|Starting Vertex OrderBook application
+2024-12-02 20:00:47.741|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 20:00:47.938|INFO|websocket|Received message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-02 20:00:47.942|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-02 20:00:53.048|INFO|main|Shutting down application...
+2024-12-02 20:00:53.048|INFO|main|Application shutdown complete
+2024-12-02 20:01:20.181|INFO|main|Starting Vertex OrderBook application
+2024-12-02 20:01:21.648|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 20:01:21.947|INFO|websocket|Received message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-02 20:01:21.947|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-02 20:36:31.989|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 20:36:31.990|INFO|websocket|Subscribed to product_id: 2
+2024-12-02 20:36:32.238|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-02 20:51:47.747|INFO|main|Starting Vertex OrderBook application
+2024-12-02 20:51:56.091|INFO|main|Starting Vertex OrderBook application
+2024-12-02 20:52:41.630|INFO|main|Starting Vertex OrderBook application
+2024-12-02 20:53:21.242|INFO|main|Starting Vertex OrderBook application
+2024-12-02 20:54:34.423|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:01:39.895|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:02:32.326|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:02:34.125|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:02:34.364|ERROR|websocket|Failed to decode message: error: data did not match any variant of untagged enum EngineMessage
+2024-12-02 21:03:00.564|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:03:02.049|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:03:54.269|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:03:55.685|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:04:56.798|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:04:58.120|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:05:57.740|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:05:59.495|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:06:36.320|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:06:37.793|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:07:15.367|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:07:16.811|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:08:00.270|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:08:01.873|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:09:05.521|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:09:06.903|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:09:33.064|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:09:34.484|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:10:08.674|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:10:10.037|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:10:29.051|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:10:30.342|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:10:57.457|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:10:58.766|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:11:22.551|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:11:23.927|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:12:12.050|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:12:13.616|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:12:26.804|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:12:28.137|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:12:55.017|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:12:56.369|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:13:12.153|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:13:13.534|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:13:54.963|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:13:56.318|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:17:39.351|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:17:41.205|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:19:06.887|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:19:08.354|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:22:07.381|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:22:09.105|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:22:09.519|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.520|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192529289390348', 'min_timestamp': '1733192529588334337', 'max_timestamp': '1733192529613546878', 'product_id': 2, 'bids': [['95874000000000000000000', '104000000000000000'], ['95873000000000000000000', '0'], ['95872000000000000000000', '104000000000000000']], 'asks': [['95878000000000000000000', '149000000000000000'], ['95879000000000000000000', '20000000000000000']]}
+2024-12-02 21:22:09.626|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.626|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192529613546878', 'min_timestamp': '1733192529616527628', 'max_timestamp': '1733192529630649804', 'product_id': 2, 'bids': [['95874000000000000000000', '0'], ['95873000000000000000000', '104000000000000000'], ['95872000000000000000000', '0'], ['95862000000000000000000', '0'], ['95857000000000000000000', '109000000000000000'], ['95856000000000000000000', '78000000000000000']], 'asks': [['95878000000000000000000', '169000000000000000'], ['95879000000000000000000', '0'], ['95887000000000000000000', '111000000000000000'], ['95893000000000000000000', '0']]}
+2024-12-02 21:22:09.651|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.651|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192529630649804', 'min_timestamp': '1733192529711408309', 'max_timestamp': '1733192529717397601', 'product_id': 2, 'bids': [['95873000000000000000000', '104000000000000000'], ['95872000000000000000000', '0']], 'asks': []}
+2024-12-02 21:22:09.774|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.775|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192529717397601', 'min_timestamp': '1733192529859885031', 'max_timestamp': '1733192529860716381', 'product_id': 2, 'bids': [['95871000000000000000000', '40000000000000000'], ['95870000000000000000000', '40000000000000000']], 'asks': []}
+2024-12-02 21:22:09.830|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.832|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192529860716381', 'min_timestamp': '1733192529892296645', 'max_timestamp': '1733192529893070079', 'product_id': 2, 'bids': [['95871000000000000000000', '0'], ['95870000000000000000000', '80000000000000000']], 'asks': []}
+2024-12-02 21:22:09.876|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.877|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192529893070079', 'min_timestamp': '1733192529923090245', 'max_timestamp': '1733192529964641929', 'product_id': 2, 'bids': [], 'asks': [['95882000000000000000000', '0'], ['95892000000000000000000', '0'], ['95902000000000000000000', '64000000000000000']]}
+2024-12-02 21:22:09.924|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.925|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192529964641929', 'min_timestamp': '1733192529975416976', 'max_timestamp': '1733192530021338492', 'product_id': 2, 'bids': [['95834000000000000000000', '25000000000000000'], ['95824000000000000000000', '80000000000000000']], 'asks': [['95902000000000000000000', '0'], ['95912000000000000000000', '0'], ['95926000000000000000000', '0']]}
+2024-12-02 21:22:09.971|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:09.972|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192530021338492', 'min_timestamp': '1733192530025631726', 'max_timestamp': '1733192530042445685', 'product_id': 2, 'bids': [['95815000000000000000000', '129000000000000000']], 'asks': [['95902000000000000000000', '24000000000000000'], ['95911000000000000000000', '85000000000000000']]}
+2024-12-02 21:22:10.022|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:10.024|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192530042445685', 'min_timestamp': '1733192530076159860', 'max_timestamp': '1733192530124433879', 'product_id': 2, 'bids': [['95843000000000000000000', '4000000000000000']], 'asks': [['95892000000000000000000', '5000000000000000'], ['95911000000000000000000', '0'], ['95922000000000000000000', '123000000000000000'], ['95935000000000000000000', '416000000000000000']]}
+2024-12-02 21:22:10.127|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:10.128|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192530124433879', 'min_timestamp': '1733192530186927686', 'max_timestamp': '1733192530192329622', 'product_id': 2, 'bids': [['95733000000000000000000', '0'], ['95732000000000000000000', '53000000000000000']], 'asks': [['96019000000000000000000', '53000000000000000'], ['96020000000000000000000', '0']]}
+2024-12-02 21:22:10.185|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:10.186|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192530192329622', 'min_timestamp': '1733192530248318564', 'max_timestamp': '1733192530259557167', 'product_id': 2, 'bids': [['95819000000000000000000', '0'], ['95805000000000000000000', '167000000000000000']], 'asks': []}
+2024-12-02 21:22:11.354|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:11.355|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192530259557167', 'min_timestamp': '1733192531445474267', 'max_timestamp': '1733192531445474267', 'product_id': 2, 'bids': [], 'asks': [['95948000000000000000000', '0']]}
+2024-12-02 21:22:11.408|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:11.409|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192531445474267', 'min_timestamp': '1733192531456875465', 'max_timestamp': '1733192531456875465', 'product_id': 2, 'bids': [], 'asks': [['95925000000000000000000', '51000000000000000']]}
+2024-12-02 21:22:11.914|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:11.914|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192531456875465', 'min_timestamp': '1733192531971717203', 'max_timestamp': '1733192531975124305', 'product_id': 2, 'bids': [['95869000000000000000000', '90000000000000000'], ['95868000000000000000000', '0'], ['95862000000000000000000', '62000000000000000'], ['95830000000000000000000', '0']], 'asks': []}
+2024-12-02 21:22:12.178|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:12.179|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192531975124305', 'min_timestamp': '1733192532162529716', 'max_timestamp': '1733192532163502982', 'product_id': 2, 'bids': [['95870000000000000000000', '40000000000000000'], ['95869000000000000000000', '130000000000000000']], 'asks': []}
+2024-12-02 21:22:12.179|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:12.179|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192532163502982', 'min_timestamp': '1733192532209096827', 'max_timestamp': '1733192532219133583', 'product_id': 2, 'bids': [['95870000000000000000000', '0'], ['95869000000000000000000', '170000000000000000']], 'asks': [['95903000000000000000000', '0'], ['95908000000000000000000', '62000000000000000']]}
+2024-12-02 21:22:13.302|ERROR|orderbook|Error updating orderbook: not enough values to unpack (expected 3, got 2)
+2024-12-02 21:22:13.304|ERROR|orderbook|Problematic data: {'type': 'book_depth', 'last_max_timestamp': '1733192532219133583', 'min_timestamp': '1733192533269758258', 'max_timestamp': '1733192533280361377', 'product_id': 2, 'bids': [['95818000000000000000000', '48000000000000000'], ['95805000000000000000000', '123000000000000000']], 'asks': []}
+2024-12-02 21:24:17.957|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:24:19.777|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:25:18.039|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T21:25:18.038180", "bids": [["95820000000000000000000", "22000000000000000"], ["95819000000000000000000", "414000000000000000"], ["95818000000000000000000", "6000000000000000"], ["95815000000000000000000", "56000000000000000"], ["95814000000000000000000", "130000000000000000"]], "asks": [["95821000000000000000000", "104000000000000000"], ["95823000000000000000000", "65000000000000000"], ["95828000000000000000000", "20000000000000000"], ["95831000000000000000000", "41000000000000000"], ["95841000000000000000000", "16000000000000000"]]}
+2024-12-02 21:26:18.619|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T21:26:18.619880", "bids": [["95882000000000000000000", "134000000000000000"], ["95881000000000000000000", "20000000000000000"], ["95880000000000000000000", "20000000000000000"], ["95868000000000000000000", "91000000000000000"], ["95866000000000000000000", "90000000000000000"]], "asks": [["95883000000000000000000", "41000000000000000"], ["95884000000000000000000", "36000000000000000"], ["95885000000000000000000", "36000000000000000"], ["95888000000000000000000", "72000000000000000"], ["95890000000000000000000", "216000000000000000"]]}
+2024-12-02 21:29:50.081|INFO|main|Starting Vertex OrderBook application
+2024-12-02 21:29:51.665|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 21:30:50.485|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T21:30:50.485611", "bids": [["95910000000000000000000", "144000000000000000"], ["95896000000000000000000", "96000000000000000"], ["95894000000000000000000", "90000000000000000"], ["95893000000000000000000", "20000000000000000"], ["95892000000000000000000", "16000000000000000"]], "asks": [["95911000000000000000000", "25000000000000000"], ["95914000000000000000000", "32000000000000000"], ["95915000000000000000000", "21000000000000000"], ["95916000000000000000000", "16000000000000000"], ["95918000000000000000000", "92000000000000000"]]}
+2024-12-02 22:49:37.750|INFO|main|Starting Vertex OrderBook application
+2024-12-02 22:49:39.143|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 22:49:47.532|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96214000000000000000000
+2024-12-02 22:49:47.587|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:47.645|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:47.683|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:47.776|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:47.886|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:47.942|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:47.993|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.043|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.093|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.145|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.193|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.244|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.390|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.446|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.528|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.548|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.605|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.657|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.760|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.808|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.869|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:48.929|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.008|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.060|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.114|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.163|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.263|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.593|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.641|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.674|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.728|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.778|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:49.982|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:50.144|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:50.195|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:50.249|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:50.298|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:50.347|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:50.393|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:50.448|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96211000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:51.115|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:51.167|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:51.277|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:51.726|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:51.937|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:52.131|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:52.789|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:53.049|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:53.111|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:53.459|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:53.509|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:53.753|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:49:54.026|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96210000000000000000000 < max_bid_price=96218000000000000000000
+2024-12-02 22:50:58.562|INFO|main|Starting Vertex OrderBook application
+2024-12-02 22:50:59.864|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 22:51:05.265|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96197000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.314|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96197000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.396|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96197000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.432|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.483|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.533|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.580|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.679|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.679|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.783|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.948|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:05.997|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:06.066|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:06.100|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:06.249|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:06.312|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:06.690|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:06.714|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:06.860|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.016|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.351|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.395|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.435|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.488|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.535|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.589|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.743|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:07.991|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:08.428|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:08.504|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:08.554|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:09.016|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:09.243|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:09.679|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:09.790|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:09.985|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.358|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.574|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.624|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.742|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.742|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.831|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.884|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:11.936|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.033|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.384|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.441|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96191000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.541|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.585|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.695|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.819|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:12.856|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.002|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.099|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.124|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.249|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.383|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.407|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.513|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.565|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.663|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96188000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.731|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96185000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.782|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96185000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.831|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96181000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.874|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96176000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.925|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:13.975|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.048|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.083|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.118|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.185|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.348|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.435|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.489|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.537|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.594|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:14.635|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.096|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.198|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.315|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.434|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.567|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.666|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.708|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.771|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96175000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.903|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96172000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.904|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.981|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:15.982|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:16.056|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:16.154|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:16.614|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:16.655|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:16.729|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:16.903|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.068|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.069|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.120|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.485|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.501|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.501|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96171000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.501|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96168000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.501|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96168000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.501|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96165000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.540|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96165000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.605|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96165000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.627|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96163000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.685|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96163000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.749|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96163000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.810|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96163000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.829|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96163000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.885|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96160000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:17.952|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.010|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.036|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.111|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.158|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.227|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.245|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.294|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.347|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.442|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.486|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:18.699|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.003|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.069|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.301|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.370|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.721|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96158000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.773|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96154000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.836|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96147000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.886|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.951|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:19.972|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.257|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.257|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.285|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.458|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.495|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.593|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.894|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:20.934|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:21.138|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:21.500|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:21.532|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:21.573|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:21.668|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:21.749|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:22.135|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:22.236|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:22.336|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:22.481|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:23.027|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:23.103|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:23.768|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:24.136|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:24.189|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:24.375|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:24.431|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:25.417|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:26.439|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:26.486|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:26.548|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:26.591|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:26.798|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:26.848|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:26.989|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.164|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.213|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.262|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.305|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.517|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.614|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.718|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.761|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.832|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.871|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.918|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:27.976|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.042|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.124|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.179|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.369|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.384|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.583|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.655|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.697|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.738|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.805|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.880|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.896|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:28.949|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:29.210|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:29.244|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:29.326|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:29.450|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:29.808|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:29.949|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:29.984|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.027|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.082|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.137|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.179|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.288|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.337|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.633|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.710|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.750|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.791|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.852|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.894|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.983|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:30.998|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.103|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.153|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.203|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.259|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.403|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.457|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.604|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:31.860|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.037|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.083|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.339|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.627|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.738|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.887|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.940|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:32.993|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:33.241|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:33.354|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:33.652|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:33.740|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:33.763|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:33.903|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:34.188|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:34.188|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:34.220|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:34.368|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:34.997|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:35.358|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:36.016|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:36.331|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:37.207|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:37.261|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:37.468|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:37.563|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:38.648|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:38.703|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:38.746|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:38.794|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:38.853|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.007|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.007|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.057|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.098|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.202|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.249|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.298|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.356|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.416|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.557|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.612|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:39.965|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.031|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.313|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.379|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.430|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.598|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.757|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.878|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:40.985|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.035|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.089|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.142|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.254|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.293|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.395|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.496|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.542|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.608|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.643|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.699|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.831|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:41.840|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:42.379|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:42.429|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:42.491|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:42.542|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:51:42.590|ERROR|orderbook|Markets crossed! min_ask_price < max_bid_price: min_ask_price=96146000000000000000000 < max_bid_price=96202000000000000000000
+2024-12-02 22:54:30.071|INFO|main|Starting Vertex OrderBook application
+2024-12-02 22:54:31.390|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 22:54:51.467|INFO|main|Shutting down application...
+2024-12-02 22:54:51.467|INFO|main|Application shutdown complete
+2024-12-02 22:55:04.223|INFO|main|Starting Vertex OrderBook application
+2024-12-02 22:55:05.714|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 22:56:05.212|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T22:56:05.212813", "bids": [["95717000000000000000000", "83000000000000000"], ["95713000000000000000000", "313000000000000000"], ["95707000000000000000000", "626000000000000000"], ["95684000000000000000000", "1045000000000000000"], ["95573000000000000000000", "62000000000000000"]], "asks": [["95722000000000000000000", "83000000000000000"], ["95727000000000000000000", "313000000000000000"], ["95732000000000000000000", "626000000000000000"], ["95752000000000000000000", "1044000000000000000"], ["95862000000000000000000", "62000000000000000"]]}
+2024-12-02 23:01:16.747|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:01:18.153|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:01:33.357|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:01:34.812|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:02:33.475|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T23:02:33.475003", "bids": [["96097000000000000000000", "41000000000000000"], ["96096000000000000000000", "10000000000000000"], ["96090000000000000000000", "40000000000000000"], ["96087000000000000000000", "92000000000000000"], ["96086000000000000000000", "78000000000000000"]], "asks": [["96098000000000000000000", "191000000000000000"], ["96103000000000000000000", "30000000000000000"], ["96104000000000000000000", "36000000000000000"], ["96105000000000000000000", "16000000000000000"], ["96107000000000000000000", "56000000000000000"]]}
+2024-12-02 23:03:25.089|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:03:26.290|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:04:25.094|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T23:04:25.094989", "bids": [["96116000000000000000000", "143000000000000000"], ["96115000000000000000000", "62000000000000000"], ["96113000000000000000000", "20000000000000000"], ["96111000000000000000000", "24000000000000000"], ["96110000000000000000000", "138000000000000000"]], "asks": [["96117000000000000000000", "41000000000000000"], ["96127000000000000000000", "20000000000000000"], ["96128000000000000000000", "88000000000000000"], ["96130000000000000000000", "16000000000000000"], ["96131000000000000000000", "16000000000000000"]]}
+2024-12-02 23:05:00.570|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:05:01.844|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:06:00.622|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T23:06:00.622465", "bids": [["96182000000000000000000", "20000000000000000"], ["96178000000000000000000", "40000000000000000"], ["96176000000000000000000", "41000000000000000"], ["96174000000000000000000", "185000000000000000"], ["96173000000000000000000", "24000000000000000"]], "asks": [["96185000000000000000000", "103000000000000000"], ["96186000000000000000000", "88000000000000000"], ["96187000000000000000000", "20000000000000000"], ["96188000000000000000000", "62000000000000000"], ["96190000000000000000000", "16000000000000000"]]}
+2024-12-02 23:07:00.644|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T23:07:00.644324", "bids": [["96176000000000000000000", "103000000000000000"], ["96174000000000000000000", "41000000000000000"], ["96170000000000000000000", "96000000000000000"], ["96169000000000000000000", "132000000000000000"], ["96168000000000000000000", "106000000000000000"]], "asks": [["96177000000000000000000", "40000000000000000"], ["96181000000000000000000", "41000000000000000"], ["96183000000000000000000", "20000000000000000"], ["96185000000000000000000", "16000000000000000"], ["96186000000000000000000", "41000000000000000"]]}
+2024-12-02 23:08:00.652|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T23:08:00.652554", "bids": [["96268000000000000000000", "143000000000000000"], ["96267000000000000000000", "93000000000000000"], ["96264000000000000000000", "65000000000000000"], ["96263000000000000000000", "90000000000000000"], ["96259000000000000000000", "16000000000000000"]], "asks": [["96273000000000000000000", "103000000000000000"], ["96275000000000000000000", "30000000000000000"], ["96276000000000000000000", "20000000000000000"], ["96277000000000000000000", "40000000000000000"], ["96281000000000000000000", "110000000000000000"]]}
+2024-12-02 23:09:00.655|INFO|orderbook|OrderBook State: {"timestamp": "2024-12-02T23:09:00.655915", "bids": [["96268000000000000000000", "40000000000000000"], ["96266000000000000000000", "114000000000000000"], ["96265000000000000000000", "134000000000000000"], ["96261000000000000000000", "16000000000000000"], ["96260000000000000000000", "16000000000000000"]], "asks": [["96275000000000000000000", "163000000000000000"], ["96282000000000000000000", "103000000000000000"], ["96283000000000000000000", "24000000000000000"], ["96285000000000000000000", "41000000000000000"], ["96286000000000000000000", "32000000000000000"]]}
+2024-12-02 23:13:28.291|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:13:29.792|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:14:16.405|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:14:17.670|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:14:53.919|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:14:55.215|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:17:32.883|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:17:34.114|INFO|websocket|Connected to Vertex WebSocket
+2024-12-02 23:18:54.832|INFO|main|Starting Vertex OrderBook application
+2024-12-02 23:18:56.423|INFO|websocket|Connected to Vertex WebSocket

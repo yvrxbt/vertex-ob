@@ -1,0 +1,41 @@
+2024-12-03 18:25:34.445|INFO|main|Starting Vertex OrderBook application
+2024-12-03 18:25:35.927|INFO|websocket|Connected to Vertex WebSocket
+2024-12-03 18:25:35.927|INFO|websocket|Subscribing to BTC-USDC orderbook
+2024-12-03 18:44:44.344|INFO|main|Starting Vertex OrderBook application
+2024-12-03 18:44:45.825|INFO|websocket|Connected to Vertex WebSocket
+2024-12-03 18:44:45.825|INFO|websocket|Subscribing to BTC-USDC orderbook
+2024-12-03 18:45:04.294|INFO|main|Shutting down application...
+2024-12-03 18:45:04.294|INFO|main|Application shutdown complete
+2024-12-03 18:45:06.976|INFO|main|Starting Vertex OrderBook application
+2024-12-03 18:45:08.404|INFO|websocket|Connected to Vertex WebSocket
+2024-12-03 18:45:08.404|INFO|websocket|Subscribing to BTC-USDC orderbook
+2024-12-03 18:55:03.249|INFO|main|Starting Vertex OrderBook application
+2024-12-03 18:55:03.249|INFO|main|Application started successfully
+2024-12-03 18:55:04.011|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403. Attempt 1/5
+2024-12-03 18:55:05.607|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403. Attempt 2/5
+2024-12-03 18:55:08.272|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403. Attempt 3/5
+2024-12-03 18:55:09.517|INFO|main|Shutdown initiated via keyboard interrupt
+2024-12-03 18:55:09.517|INFO|main|Cleaning up tasks...
+2024-12-03 18:55:09.517|INFO|main|Application shutdown complete
+2024-12-03 18:57:21.076|INFO|main|Starting Vertex OrderBook application
+2024-12-03 18:57:21.076|INFO|main|Application started successfully
+2024-12-03 18:57:21.798|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403. Attempt 1/5
+2024-12-03 18:57:23.475|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403. Attempt 2/5
+2024-12-03 18:57:26.162|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403. Attempt 3/5
+2024-12-03 18:57:30.827|ERROR|websocket|WebSocket error: server rejected WebSocket connection: HTTP 403. Attempt 4/5
+2024-12-03 18:57:31.738|INFO|main|Cleaning up tasks...
+2024-12-03 18:57:31.738|INFO|main|Application shutdown complete
+2024-12-03 18:57:44.613|INFO|main|Starting Vertex OrderBook application
+2024-12-03 18:57:44.616|INFO|main|Application started successfully
+2024-12-03 18:57:46.013|INFO|websocket|Connected to Vertex WebSocket
+2024-12-03 18:57:46.013|INFO|websocket|Subscribing to BTC-USDC orderbook
+2024-12-03 18:57:52.307|INFO|main|Cleaning up tasks...
+2024-12-03 18:57:52.307|INFO|main|Application shutdown complete
+2024-12-03 18:59:44.044|INFO|main|Starting Vertex OrderBook application
+2024-12-03 19:00:16.418|INFO|main|Starting Vertex OrderBook application
+2024-12-03 19:01:59.167|INFO|main|Starting Vertex OrderBook application
+2024-12-03 19:01:59.167|INFO|main|Application started successfully
+2024-12-03 19:02:00.671|INFO|websocket|Connected to Vertex WebSocket
+2024-12-03 19:02:00.671|INFO|websocket|Subscribing to BTC-USDC orderbook
+2024-12-03 19:04:26.013|INFO|main|Cleaning up tasks...
+2024-12-03 19:04:26.013|INFO|main|Application shutdown complete
