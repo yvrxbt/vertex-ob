@@ -1,5 +1,61 @@
 # Project Name: Websocket with Internal Orderbook
 
+## Run Instructions
+
+Using Python 3.10, install dependencies and run the application:
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+It is recommended to run the application with a conda environment to avoid dependency issues. Please setup a conda environment,
+install the requirements, and activate it before running the application with `python main.py`.
+
+```bash
+conda create -n vertex-ob python=3.10
+conda activate vertex-ob
+conda install -c conda-forge websockets asyncio
+python main.py
+```
+
+Once you run it, the orderbook will be displayed in the terminal in the format of:
+
+```
+=================================================================
+BTC-USDC Orderbook
+=================================================================
+       Price     Quantity       Total ($)
+-----------------------------------------------------------------
+    96079.00     0.016000         1537.26
+    96077.00     0.078000         7494.01
+    96076.00     0.016000         1537.22
+    96075.00     0.240000        23058.00
+    96074.00     0.024000         2305.78
+    96071.00     0.020000         1921.42
+    96069.00     0.095000         9126.56
+    96066.00     0.020000         1921.32
+    96065.00     0.062000         5956.03
+    96059.00     0.194000        18635.45
+
+Mid: $96058.50                              Spread: $1.00 (0.00%)
+
+    96058.00     0.100000         9605.80
+    96057.00     0.024000         2305.37
+    96056.00     0.020000         1921.12
+    96055.00     0.086000         8260.73
+    96051.00     0.090000         8644.59
+    96048.00     0.041000         3937.97
+    96046.00     0.097000         9316.46
+    96044.00     0.094000         9028.14
+    96041.00     0.032000         3073.31
+    96040.00     0.042000         4033.68
+```
+keeping 10 levels on each side.
+
+## Code entry point
+The main.py file is the entry point to the application. Running it will initialize the websocket client, orderbook, and display classes, and then create asyncio tasks for the websocket connection and the display loop.
+
+The websocket connection is established using the VertexWebsocketClient class connecting to a pre-defined URL/subscription message, which is initialized with a callback function that updates the orderbook. The orderbook class is responsible for processing the messages from the websocket client and updating the internal representation of the orderbook. Finally, the display class is responsible for printing the orderbook to the terminal in a user-friendly format.
 ## Introduction
 
 This project aims to develop a simple application in the language of your choice that streams a live orderbook for BTC-USDC from the on-chain perpetual exchange, Vertex. You'll need to recreate the orderbook using a stream of updates received from the exchange's public WebSocket. No API keys are required, but you will need a VPN to connect to the WebSocket if subscribing inside the United States. You may use any resources available, including AI tools like ChatGPT.
